@@ -13,15 +13,11 @@
 - 節省手動複製時間：利用程式自動處理、呼叫 YouTube 的內部 API。
 - 自動解析 Header：將瀏覽器複製出的 `fetch(...)` 內容貼上，即可擷取必要憑證。
 
----
-
 ## 環境需求
 
 - Node.js 18 以上：
 - YouTube 帳戶已登入：
     - 由於程式需要用到瀏覽器 Cookie 與 Authorization，務必要從已登入 YouTube 的瀏覽器複製出 fetch(...)。
-
----
 
 ## 安裝教學
 
@@ -32,8 +28,6 @@
 ```shell
 npm install
 ```
-
----
 
 ## 檔案結構
 
@@ -67,8 +61,6 @@ npm install
   Instant Immortal
   ```
 
----
-
 ## 使用方式
 
 - 擷取瀏覽器發送的 `fetch(...)`
@@ -83,8 +75,6 @@ npm install
     - 開啟終端機（Terminal），在專案目錄下輸入：
     - `node app.js`
 
----
-
 ## 注意事項
 
 - Cookie、Authorization 有效性
@@ -93,8 +83,6 @@ npm install
 - 請確保此操作符合 YouTube 服務條款。量大時有機會被觸發驗證或限制。
 - 歌曲搜尋準確度
 - 由於是利用關鍵字搜尋，若歌曲關鍵字過於模糊或重複，可能搜尋到非預期影片。建議提供更精確關鍵字如作者或執行後檢查。
-
----
 
 ## 常見問題 FAQ
 
@@ -112,8 +100,6 @@ npm install
 
 5. License  
    此範例程式可自由修改、使用、散佈。請遵守 YouTube 使用條款 與 Google API 使用規範 之相關規定。
-
---
 
 ## 授權與貢獻
 
