@@ -19,16 +19,6 @@
 - YouTube 帳戶已登入：
     - 由於程式需要用到瀏覽器 Cookie 與 Authorization，務必要從已登入 YouTube 的瀏覽器複製出 fetch(...)。
 
-## 安裝教學
-
-他不能安裝，自己執行吧 .w.
-
-### 進入目錄後執行
-
-```shell
-npm install
-```
-
 ## 檔案結構
 
 專案基本結構如下：
@@ -72,8 +62,8 @@ npm install
 - 放歌曲到 `songs.txt`
     - 在專案根目錄的 `songs.txt` 中，每行寫一首歌曲的名稱或關鍵字。
 - 執行程式
-    - 開啟終端機（Terminal），在專案目錄下輸入：
-    - `node app.js`
+   - 安裝依賴包並初始化 `$ npm install`
+   - 執行進入點 `node main.js`
 
 ## 注意事項
 
